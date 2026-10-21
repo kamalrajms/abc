@@ -1,0 +1,98 @@
+15/10/2026
+
+## react intro
+
+    What is React?
+  
+
+  
+    1) React is a JavaScript library (not a framework) developed by Facebook (Meta) for building user interfaces (UIs), especially Single Page Applications (SPAs).
+
+    2) It helps developers build reusable UI components that update efficiently when data changes.
+
+    Instead of reloading a whole webpage when something changes, React updates only the parts of the UI that need to change.
+
+    -------
+    Why do we need React?
+
+	It makes UI development faster, cleaner, and more efficient.
+
+	Provides a better user experience with smooth updates without page reloads.
+
+
+    ## must need to install node.js
+ 
+## procedure to initiate project
+
+    step 1 : npm create vite@latest [project_name]
+    step 2 : select react
+    step 3 : select javascript+ react compailer
+    step 4 : npm install                // install node module packages
+    step 5 : npm run dev 
+
+    if you want to re-run your project mean 
+        npm run dev
+
+
+16/10/2026
+
+commend :npm i
+
+## props
+
+    props is nothing but drilling data from parent to child componet.
+
+        declearing props
+        Destructuring props
+
+## conditional rendering
+
+    conditional rendering means showing or hiding parts of UI based on the 
+    Some condition.
+
+        termary operator  {condition ? true : false}
+        logical operator  && || !
+
+## list rendering
+
+    Rendering multiple items dynamically using .map()
+
+    arr=[1,2,3]
+
+    arr.map((num,ind)=>(
+        num*2
+    ))
+
+    arr=[2,4,6]
+
+21/10/2026
+
+## style in react
+
+    global style -- index.css and app.css is called as global style file
+    Local style  -- to create a seperate style file for a componet is called Local style
+    module style -- to implement module style we need to create seperate css file 
+                    [file name in the formate of [fileName.module.css]]
+    inline style -- to implement inline we need to declear style attribute {{ padding:"20px"}}
+    object style -- to implement this type we need to declear styleing properties in
+                    object  as [keys & value] pair.
+
+
+## useState()
+
+        useState is a react hook that allows you to add state (data that can change over time)
+        to a function components
+
+        Normally, in js function ,variables disappear after the function runs,
+        but with useState hook , react remember values b/w re-render.
+
+
+        syntax:
+
+            const[state,setState]=useState(initialValue)
+
+            const[count,setCount]=useState(55)
+
+            state -- the current value of the state variables
+            setState -- a function that update the state.
+            initialValue -- the starting value of the state.
