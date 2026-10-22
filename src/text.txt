@@ -77,8 +77,9 @@ commend :npm i
     object style -- to implement this type we need to declear styleing properties in
                     object  as [keys & value] pair.
 
+22/10/2026
 
-## useState()
+## useState() & access input
 
         useState is a react hook that allows you to add state (data that can change over time)
         to a function components

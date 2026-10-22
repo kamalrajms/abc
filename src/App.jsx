@@ -7,6 +7,9 @@ import ListRendering from "./ListRendering";
 import ObjectStyle from "./ObjectStyle";
 import UseStateHook from "./Component/UseStateHook";
 import DarkMode from "./Component/DarkMode";
+import Feilds from "./Component/Fields";
+import Regform from "./Component/Regform";
+import ConditionalForm from "./Component/ConditionalForm";
 
 export default function App() {
   console.log("App component rendered");
@@ -23,8 +26,11 @@ export default function App() {
 
   return (
     <div>
-      <DarkMode/>
-      <UseStateHook/>
+      <ConditionalForm />
+      <Regform />
+      <Feilds />
+      <DarkMode />
+      <UseStateHook />
       <ObjectStyle />
       <ListRendering />
       <ConditionalRendering />
