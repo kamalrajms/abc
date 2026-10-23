@@ -10,6 +10,9 @@ import DarkMode from "./Component/DarkMode";
 import Feilds from "./Component/Fields";
 import Regform from "./Component/Regform";
 import ConditionalForm from "./Component/ConditionalForm";
+import Useeffecthook from "./Component/Useeffecthook";
+import Sec from "./Component/Sec";
+import StopWatch from "./Component/StopWatch";
 
 export default function App() {
   console.log("App component rendered");
@@ -26,6 +29,9 @@ export default function App() {
 
   return (
     <div>
+      <StopWatch />
+      <Sec />
+      <Useeffecthook />
       <ConditionalForm />
       <Regform />
       <Feilds />

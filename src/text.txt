@@ -97,3 +97,26 @@ commend :npm i
             state -- the current value of the state variables
             setState -- a function that update the state.
             initialValue -- the starting value of the state.
+
+
+23/10/2026
+
+## useEffect()
+
+    In react ,useEffect is a hook that let you provide  side effect in
+    functional components.
+    side effect are task that happen outside the normal react 
+    rendering process, like:
+
+            fetching data from API
+            Updating the browser DOM manually
+            starting/stopping the timers
+
+    syntax:
+
+        const useEffect(()=>{
+                // code
+        },[dependency 1,dependency 2....])
+
+
+        [ ] -- it will execute it only one at begining.
