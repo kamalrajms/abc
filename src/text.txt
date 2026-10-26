@@ -120,3 +120,21 @@ commend :npm i
 
 
         [ ] -- it will execute it only one at begining.
+
+26/10/2026
+
+## useRef()
+
+    useRef is a react hook that give you a box (.current) you can store
+    anything in like: num,str,obj,function...dom element.
+
+    That value persists b/w render
+
+    Updating it does not cause your component to re-render.
+
+
+    {current:value}
+
+    syntax:
+
+        const variables=useRef(initialValue)

@@ -8,9 +8,23 @@
   background-color: blue;
   color: aliceblue;
 }
-.destructure{
-    margin: 300px;
+.destructure {
+  margin: 300px;
 }
-.condition{
-    margin: 300px;
+.condition {
+  margin: 300px;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.org-imr {
+  width: 200px;
+  height: 200px;
+  /* background-color: aqua; */
+  border: 2px solid black;
+  cursor: pointer;
 }

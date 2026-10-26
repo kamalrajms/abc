@@ -13,6 +13,8 @@ import ConditionalForm from "./Component/ConditionalForm";
 import Useeffecthook from "./Component/Useeffecthook";
 import Sec from "./Component/Sec";
 import StopWatch from "./Component/StopWatch";
+import UseeffectAPI from "./Component/UseeffectAPI";
+import UseRefHook from "./Component/UseRefHook";
 
 export default function App() {
   console.log("App component rendered");
@@ -29,6 +31,8 @@ export default function App() {
 
   return (
     <div>
+      <UseRefHook />
+      <UseeffectAPI />
       <StopWatch />
       <Sec />
       <Useeffecthook />
