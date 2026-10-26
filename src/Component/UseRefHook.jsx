@@ -41,7 +41,7 @@ export default function UseRefHook() {
         <button onClick={() => clearInterval(inputRef.current)}>stop</button>
       </nav>
       <nav>
-        <input type="file" ref={imgRef} hidden onClick={handleImage} />
+        <input type="file" ref={imgRef} hidden onChange={handleImage} />
         {newProduct ? (
           <div
             className="image"
