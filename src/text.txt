@@ -138,3 +138,18 @@ commend :npm i
     syntax:
 
         const variables=useRef(initialValue)
+
+27/10/2026
+
+## useContext()
+
+    Passing data from a parent component down to deeply nested child 
+    component is annoying.
+    Normally you'd have to pass props manually through each level .
+    useContext let you skip all the middle component and share data directly.
+
+        Create a context 
+        Provide a value
+        Consume the values
+
+    in a component we can create only one createContext .

@@ -52,7 +52,11 @@ export default function UseRefHook() {
             uploading image..
           </div>
         ) : (
-          <img className="org-imr" src={imgURL} />
+          <img
+            className="org-imr"
+            src={imgURL}
+            onClick={() => imgRef.current.click()}
+          />
         )}
       </nav>
     </div>
