@@ -6,7 +6,7 @@ export default function Service() {
     <div>
       <h2>Service component</h2>
       <div className="sub-header">
-        <Link to={""}>WebApp</Link>
+        <Link to={"WebApp"}>WebApp</Link>
         <Link to={"AppApp"}>AppApp</Link>
       </div>
       <Outlet />
