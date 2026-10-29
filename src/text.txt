@@ -153,3 +153,61 @@ commend :npm i
         Consume the values
 
     in a component we can create only one createContext .
+
+
+29/10/2026
+
+## useReducer ()
+
+
+    syntax:
+
+    const [state,dispatch]=useReducer(reducerFunction,initialState)
+
+    state -- current state (like useState)
+    dispatch(action) -- a function to tell the reducer what to do
+    reducerFunction(state,action) -- the logic that return a new state
+    initialState -- starting value 
+
+
+## Routing in react. && nexted routing
+
+    Routing means navigation b/w pages in a web Applications without refreshing browser.
+
+    In traditional webpage,clicking a link reloads the whole page.
+
+    In react (Single page Application) Routing lets us changethe view without reloading.
+
+
+
+            better performance 
+            Smooth user experience
+            Control over navigation without server request
+
+    commend:npm install react-router-dom
+
+    basic structure:
+
+    <<BrowserRouter>
+        <Routes>
+            <Route path:"/homepage" element={<Home/>}/>
+            <Route path:"/Aboutpage" element={<About/>}/>
+            <Route path:"/servicepage" element={<service/>}/>
+        </Routes>
+    </BrowserRouter>
+
+    BrowserRouter:
+
+        It is the main wrapper component for routing in react app.
+        it enables navigation using the browser URL.
+        without ,it routing will not work
+
+    Routes:
+
+        It contains all the  <Route/> component.
+        It tells react router which component to show for the path.
+        Only one rout will match and render at a time
+
+    Route:
+
+        Defines a specifif URL path and component .
