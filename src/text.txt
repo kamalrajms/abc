@@ -211,3 +211,73 @@ commend :npm i
     Route:
 
         Defines a specifif URL path and component .
+
+
+30/10/2026
+
+## useParam()
+
+    useParam is a hook provided by react router that returns an 
+    object contained key/value pair of the dynamic parameter from the 
+    current  URL.
+
+    Using  a colon (:) following by a parameter name.
+
+    syntax :
+
+        const variables=useParam()
+    
+    ex: if you have a route defined as /blog/:id and the current URL
+    is /blog/helloworld.
+    useParam() return {id:"helloworld"}
+
+    the colon (:) tells react router that id is a dynamic parameter.
+
+
+## useNavigate()
+
+    useNavigate is a hook provided by react router that return a function allowing 
+    you to programmatically navigate to different component (change the url)
+    in response to event like from submission ,button click,timer,..
+
+    syntax:
+     
+        const variables=useNavigate()
+
+## useId()
+
+    useId is a react hook introduced in react 18.
+    it is used to genetete unique IDs that consistent b/w 
+    server side and client rendering.
+
+    syntax:
+
+        const variables=useId()
+
+
+## domain
+
+A domain name is the unique address used to access in a website 
+on the internet.
+
+eg: google.com      123.1235.5786.235467.24567.12456.234
+
+## subdomain
+
+    example.com
+
+    blogs.example.com
+    admin.example.com
+
+## types of domain
+
+    com. -- commercial
+    gov -- governement
+    org -- organization
+    net -- network
+    in -- india
+    info -- information based web
+    edu -- education
+    mil -- military
+
+
