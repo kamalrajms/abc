@@ -281,3 +281,19 @@ eg: google.com      123.1235.5786.235467.24567.12456.234
     mil -- military
 
 
+04/11/2026
+
+
+## usesearchParams()
+
+    usesearchParams is a hook provided by react router dom used to read ,
+    access and update query paraameter in the URL
+
+    it helps URL query parameter dynamically in react Application.
+
+    syntax:
+
+        const [searchParam,setSearchParams]=usesearchParams()
+
+        searchParam -- read values
+        setSearchParams -- update values
