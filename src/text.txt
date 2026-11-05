@@ -297,3 +297,35 @@ eg: google.com      123.1235.5786.235467.24567.12456.234
 
         searchParam -- read values
         setSearchParams -- update values
+
+
+5/11/2026
+
+## API 
+
+    fetch, axios
+
+    commend:npm i axios
+
+    response={
+        status-code:200,
+        header:{.....},
+        status:succuee,
+        configure:{...},
+        data:[{id:1},{id:1},{id:1},{id:1},{id:1},]
+        error:{
+            mseeage:"hudefbcweiuyfch"
+        }
+    }
+
+## Custom hook
+
+    A custom hook is a reusable function in react contains logic using hooks
+    (like: useState,useEffect...)
+
+    It allows you to share and reusable to share logic b/w multiple component
+    Without repeating code.
+
+    The name of a custom hook must statrt with  [use] such as useFetch,useLocation..
+
+    create a custom hook in js file.

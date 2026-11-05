@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import CustomHook from "../Component/CustomHook";
 
 export default function About() {
   const page = useNavigate();
@@ -11,6 +12,7 @@ export default function About() {
   }, [count]);
   return (
     <div>
+      <CustomHook />
       <h2>About Component</h2>
       <h2>count:{count}</h2>
       <button

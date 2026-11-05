@@ -113,7 +113,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
-          <Route path="/Service/:id" element={<Service />}>
+          <Route path="/Service" element={<Service />}>
             <Route path="WebApp" element={<WebApp />} />
             <Route path="AppApp" element={<AppApp />} />
           </Route>
