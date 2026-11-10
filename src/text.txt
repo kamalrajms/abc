@@ -329,3 +329,21 @@ eg: google.com      123.1235.5786.235467.24567.12456.234
     The name of a custom hook must statrt with  [use] such as useFetch,useLocation..
 
     create a custom hook in js file.
+
+
+10/11/2026
+
+## CRUD
+
+                        request method
+        Create data ---  POST 
+        Read data  ----  GET 
+        Update data ---  PUT 
+        Delete data ---  DELETE 
+
+
+                            http request
+        clint(react app) ------------------> server
+                        <------------------
+                            http response
+                             {json}
